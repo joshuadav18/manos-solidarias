@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ONG Manos Solidarias</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>ONG Manos Solidarias</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#noticias">Noticias</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Sección Inicio -->
+    <section id="inicio">
+      <h2>Nuestra Misión</h2>
+      <p>Trabajamos por el bienestar de comunidades vulnerables a través de programas solidarios, campañas de ayuda y la movilización de voluntarios.</p>
+    </section>
+
+    <!-- Sección Noticias -->
+    <section id="noticias">
+      <h2>Últimas Noticias</h2>
+      <article>
+        <h3>Campaña de recolección de alimentos</h3>
+        <p>Recolectamos más de 500 kilos de alimentos en la campaña de julio gracias a nuestros voluntarios y donantes.</p>
+      </article>
+      <article>
+        <h3>Nuevo centro de apoyo en Cartagena</h3>
+        <p>Inauguramos un nuevo espacio de atención en Cartagena para niños y adultos mayores.</p>
+      </article>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <form id="formularioContacto">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensajeExito" style="display:none; color:green;">¡Mensaje enviado con éxito!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ONG Manos Solidarias</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
